@@ -1,8 +1,8 @@
-import { NumericInput } from 'numeric-keyboard'
+import { NumericKeyboard } from 'numeric-keyboard'
 export default {
   name: 'v-pos',
   components: {
-    NumericInput
+    NumericKeyboard
   },
   props: [],
   data () {
