@@ -1,5 +1,13 @@
 {
   "dependencies": {
     "numeric-keyboard": "^0.7.0"
-  }
+  },
+  "name": "v-pos",
+  "version": "1.0.0",
+  "description": "a vuejs pos input element",
+  "main": "index.vue",
+  "repository": "git@github.com:marcus7777/v-pos.git",
+  "author": "marcus <marcus@hhost.me>",
+  "license": "MIT",
+  "private": false
 }
