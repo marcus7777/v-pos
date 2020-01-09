@@ -1,4 +1,19 @@
-<template src="./v-pos.html"></template>
-<script src="./v-pos.js"></script>
-<style src="./v-pos.scss" scoped lang="scss"></style>
+<template>
+   <div class="keyboard">
+     <NumericKeyboard layout="tel" @press="press" />
+   </div>
+</template>
 
+<script>
+  import { NumericKeyboard } from 'numeric-keyboard'
+  export default {
+    components: {
+      NumericKeyboard
+    },
+    methods: {
+      press(key) {
+        ...
+      }
+    }
+  }
+</script>
