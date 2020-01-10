@@ -1,7 +1,7 @@
 <template>
   <div class="keyboard">
     <div class="grid">
-      <div v-for="(v,k) in cat ":key="k" >{{v}}</div>
+      <div v-for="(v,k) in cat" :key="k" >{{v}}</div>
       <div class="gridb">
         <div>1</div>
         <div>2</div>
