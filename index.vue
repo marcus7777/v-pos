@@ -1,7 +1,9 @@
 <template>
   <div class="keyboard">
-    <div class="grid">
-      <md-button v-for="(v,k) in cat" :key="k" >{{v}}</md-button>
+    <div class="grid"> 
+      <div class="cat">
+        <md-button v-for="(v,k) in cat" :key="k" >{{v}}</md-button>
+      </div>
       <div class="pad md-layout-item md-size-66 md-small-size-100">
         <div class="line" v-for="(line, j) in pad" :key="j" >
           <md-button v-for="(v,k) in line" :key="k" >{{v}}</md-button>
@@ -17,13 +19,15 @@
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(8, 1fr);
-    grid-gap: 10px;
     grid-auto-rows: 100px;
     grid-template-areas:
       "o o o o o o o o"
       "c c c c c p p p"
       "c c c c c p p p"
       "c c c c c p p p";
+  }
+  .cat {
+    grid-area: c;
   }
   .pad {
     grid-area: p;
