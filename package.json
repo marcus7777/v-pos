@@ -3,8 +3,8 @@
     "numeric-keyboard": "^0.7.0"
   },
   "name": "v-pos",
-  "version": "1.0.0",
-  "description": "a vuejs pos input element",
+  "version": "1.0.1",
+  "description": "a vuejs 'Point of Sale' input element",
   "main": "index.vue",
   "repository": "git@github.com:marcus7777/v-pos.git",
   "author": "marcus <marcus@hhost.me>",
