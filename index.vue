@@ -22,8 +22,6 @@
     components: {
     },
     methods: {
-      press(key) {
-      }
     },
     data(){
       return {
