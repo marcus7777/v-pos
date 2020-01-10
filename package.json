@@ -1,7 +1,4 @@
 {
-  "dependencies": {
-    "numeric-keyboard": "^0.7.0"
-  },
   "name": "v-pos",
   "version": "1.0.1",
   "description": "a vuejs 'Point of Sale' input element",
