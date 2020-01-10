@@ -13,7 +13,6 @@
     },
     methods: {
       press(key) {
-        ...
       }
     }
   }
