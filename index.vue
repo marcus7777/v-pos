@@ -14,6 +14,19 @@
   .grid {
     grid-auto-columns: 6px;
     align-content: space-evenly;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 100px;
+    grid-template-areas:
+      "o o o o o o o o"
+      "c c c c c p p p"
+      "c c c c c p p p"
+      "c c c c c p p p";
+  }
+  .pad {
+    grid-area: p;
   }
 </style>
 <script>
