@@ -7,7 +7,7 @@
 <script>
   import { NumericKeyboard } from 'numeric-keyboard'
   export default {
-    name: "v-pos"
+    name: "v-pos",
     components: {
       NumericKeyboard
     },
